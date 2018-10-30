@@ -10,5 +10,20 @@
         }
     ],
     "minimum-stability": "beta",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "Lysice\\TrieFilter\\": "src/"
+        }
+    },
+    "extra" : {
+        "laravel" : {
+            "providers" : [
+                "Lysice\\TireFilter\\TrieFilterServiceProvider"
+            ],
+            "aliases"  : {
+                "TrieFilter" : "Lysice\\TrieFilter\\TrieFilterFacede"
+            }
+        }
+    }
 }

@@ -1,0 +1,14 @@
+{
+    "name": "lysice/triefilter",
+    "description": "a sensitive-word filter implement for laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lysice",
+            "email": "snowist@126.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}

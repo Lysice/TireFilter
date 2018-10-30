@@ -9,7 +9,7 @@
             "email": "snowist@126.com"
         }
     ],
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4" : {
